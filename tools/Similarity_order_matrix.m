@@ -14,6 +14,7 @@ for i=1:num_all
     similarity(i,i)=0;
 end
 
+
 S_intra=zeros(size(num_all));
 for k=1:num_class
     class_start=(k-1)*num_train+1;
